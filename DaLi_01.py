@@ -1,3 +1,7 @@
+from lib.geometry.Circle import Circle
+from lib.geometry.Rectangle import Rectangle
+
+
 def ex01():
     print("Welcome to Python")
     print("Learning Java Now")
@@ -33,4 +37,13 @@ def ex06():
     print(sum)
 
 
-ex06()
+def ex08():
+    circle = Circle(6.5)
+    print(circle.getArea())
+
+
+def ex09():
+    print(Rectangle(5.3, 8.6).getArea())
+
+
+ex09()
